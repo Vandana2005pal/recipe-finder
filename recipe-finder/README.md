@@ -87,17 +87,13 @@ Please explain the cause of the error and suggest the smallest fix.
 
 Do not rewrite the entire project.
 
-## How AI Assisted Me
+## AI Assistance and Manual Improvements
 
-I used AI as a development assistant throughout the project.
+### AI Assistance
 
-It helped me plan the application structure, understand React components, integrate the API, improve the UI, and debug errors.
+I used AI to review my React Recipe Finder application and suggest improvements. AI helped me understand error handling, loading states, responsive design, and user experience improvements.
 
-I reviewed the generated code, tested the application, and made manual changes whenever the code did not meet my requirements.
-
-AI helped me understand the implementation, but I made the final decisions about the features, design, and code improvements.
-
-## Manual Improvements
+### Manual Improvements
 
 1. Added a user-friendly error message when the API request fails.
 2. Added a loading indicator while recipes are being fetched.
@@ -105,6 +101,14 @@ AI helped me understand the implementation, but I made the final decisions about
 4. Added validation to prevent unnecessary API calls when the search input is empty.
 5. Separated the recipe card and recipe details into reusable components.
 6. Added responsive recipe cards, focus styles, hover states, and a styled details section.
+
+### Manual Improvement: Error Handling Testing
+
+I tested the error-handling functionality by temporarily using an invalid API URL. The application displayed an error message and cleared the previous recipe results. After restoring the correct API URL, recipe results loaded successfully.
+
+### Testing Result
+
+The application handled API failure without crashing and successfully displayed recipes again after the correct API URL was restored.
 
 ## Live Demo
 
